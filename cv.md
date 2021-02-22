@@ -1,7 +1,5 @@
 # Dmitry Muscinschi
 
----
-
 ## Contact Information:
 
 1. Email: dima.8m8@gmail.com
