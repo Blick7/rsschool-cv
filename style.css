@@ -1,5 +1,22 @@
 body {
-    background: linear-gradient(30deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
+    background: linear-gradient(132deg, rgba(136,217,138,1) 0%, rgba(189,204,235,1) 61%);
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+.img1 {
+    width: 180px;
+    position: absolute;
+    margin-left: 40%;
+    top: 80px;
+    border-radius: 20%;  
 }
 
 .main-block {
@@ -8,29 +25,7 @@ body {
     margin-right: auto;
 }
 
-.contacts {
-    padding-top: 0px;
-    
-}
-
-img {
-    width: 180px;
-    position: absolute;
-    margin-left: 38%;
-    top: 30px;
-    border-radius: 20%;
-}
-
-.photo {
-    margin: 20px;
-}
-
-.about-me {
-    border-top: 2px solid black;
-    padding: 1px;
-}
-
-.skills {
+div > div {
     border-top: 2px solid black;
     padding: 1px;
 }
@@ -41,18 +36,22 @@ img {
     margin-bottom: 15px;
 } 
 
-.experience {
-    border-top: 2px solid black;
-    padding: 1px;
+.contacts {
+    border-top: none;
 }
 
-.education {
-    border-top: 2px solid black;
-    padding: 1px;
+.img2 {
+    width: 100px;
 }
 
-.english {
-    border-top: 2px solid black;
-    padding: 1px;
+.nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 0;
 }
 
+.nav > li {
+    margin-left: 10%;
+    margin-right: 10%;
+}
